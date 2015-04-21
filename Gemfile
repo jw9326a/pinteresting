@@ -19,6 +19,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bootstrap gem so that we don't need to install from Bootstrap directly
 gem 'bootstrap-sass'
+# devise gem for authentication purposes
+gem 'devise', '~> 3.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
