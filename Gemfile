@@ -21,6 +21,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 # devise gem for authentication purposes
 gem 'devise', '~> 3.4.1'
+# paperclip gem for image uploading
+gem 'paperclip', '~> 4.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
