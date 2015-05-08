@@ -24,6 +24,9 @@ gem 'devise', '~> 3.4.1'
 # paperclip gem for image uploading
 gem 'paperclip', '~> 4.2'
 
+# AWS-SDK gem to hook up Heroku with S3
+gem 'aws-sdk', '< 2.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
