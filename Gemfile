@@ -29,6 +29,10 @@ gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
 # jQuery Masonry brings in Masonry Javascript library
 gem 'masonry-rails', '~> 0.2.0'
+# will_paginate gem to add in pagination
+gem 'will_paginate', '~> 3.0.5'
+# will_paginate-bootstrap gem to allow bootstrap styling on will_paginate gem
+gem 'will_paginate-bootstrap'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
