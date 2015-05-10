@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+# jQuery turbolinks allows javascript to work with turbolinks
+gem 'jquery-turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bootstrap gem so that we don't need to install from Bootstrap directly
@@ -23,9 +25,10 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
 # paperclip gem for image uploading
 gem 'paperclip', '~> 4.2'
-
 # AWS-SDK gem to hook up Heroku with S3
 gem 'aws-sdk', '< 2.0'
+# jQuery Masonry brings in Masonry Javascript library
+gem 'masonry-rails', '~> 0.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
